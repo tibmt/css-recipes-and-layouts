@@ -1,0 +1,271 @@
+
+.content-middle{
+    height: 500px;
+}
+.girls-wrapper-above{
+    height: 47px;
+    font-size: 15px;
+    color: #555555;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.girls-wrapper-above span{
+    padding: 15px;
+}
+.girls-wrapper-above :first-child{
+    margin-left: 10%;
+}
+.girls-wrapper-above :last-child{
+    margin-right: 10%;
+}
+.girls-wrapper-above :nth-child(4){
+    margin-right: auto;
+}
+.girls-wrapper-above span:hover{
+    background-color: #fd926d;
+    color: white;
+}
+.girls-wrapper-above button:hover{
+    background-color: #fd926d;
+}
+.girls-wrapper-above button{
+    height: 47px;
+    width: 47px;
+    border: 0;
+    background-color: #f2f2f2;
+}
+
+.girls-wrapper{
+    height: 455px;
+    background-color: #fd926d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-it-wrapper{
+    position: relative;
+    left: 50px;
+    top: 300px;
+    height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    background-color: #4c4c4c;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.shop-two-four-girl-top{
+    top: 250px;
+}
+.shop-two-four-girl{
+    margin-bottom: 135px;
+}
+.sale-girl-wrapper :hover, .shop-two-four-girl :hover{
+    opacity: 1;
+}
+.sale-girl-wrapper{
+    margin-bottom: 185px;
+}
+.sale-girl-wrapper-right{
+    margin-bottom: 50px;
+}
+.sale-rectangle{
+    margin-bottom: 50px;
+}
+.sale-wrapper{
+    position: relative;
+    z-index: 1;
+    top: 50px;
+}
+.sale-triangle-black{
+    width: 0;
+    height: 0;
+    border-top: 50px solid #4c4c4c;
+    border-right: 50px solid transparent;
+}
+.sale-triangle-white{
+    width: 0;
+    height: 0;
+    border-bottom: 50px solid white;
+    border-left: 50px solid transparent;
+    position: absolute;
+    bottom: 0;
+}
+.sale-text{
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}
+
+.girls{
+    height: 395px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.girls img{
+    width: 100%;
+    height: 100%;
+}
+.girl-left{
+    height: 395px;
+    background-color: white;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.girl-left img, .girl-right img{
+    width: 100%;
+}
+.girl-right{
+    height: 395px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.girls p{
+    margin: auto;
+    font-size: 12px;
+}
+.girl-left p, .girl-right p{
+    font-size: 12px;
+    margin: auto 0;
+}
+.girls span{
+    font-size: 22px;
+}
+.girls button, .girl-left button, .girl-right button{
+    border: 0;
+    color: white;
+    background-color: #fd926d;
+    padding: 5px;
+    border-bottom: 2px solid #dd6b44;
+    margin: 8px auto;
+}
+.girl-left button, .girl-right button{
+    margin: auto 0;
+}
+.girls button i{
+    color: white;
+    padding-left: 8px;
+}
+.load-more{
+    display: none;
+}
+
+@media screen and (max-device-width: 768px) and (min-device-width: 640px) {
+    .girls-wrapper-above :first-child{
+        margin-left: 2%;
+    }
+    .girls-wrapper-above :last-child{
+        margin-right: 2%;
+    }
+    .girls-wrapper{
+        justify-content: space-around;
+    }
+    .girl-left{
+        display: none;
+    }
+    .girl-right{
+        display: none;
+    }
+    .sale-girl-wrapper-right{
+        display: none;
+    }
+    .girl-five{
+        display: none;
+    }
+}
+
+@media screen and (max-device-width: 640px) {
+    .content-middle{
+        height: 765px;
+        display: flex;
+        flex-direction: column;
+    }
+    .girls-wrapper-above button{
+        display: none;
+    }
+    .girls-wrapper-above span{
+        display: none;
+    }
+    .girls-wrapper-above{
+        height: 90px;
+        background-color: #f4845d;
+    }
+    .what-hot{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+
+        color: white;
+        font-size: 30px;
+    }
+    .what-hot p{
+        margin-left: 30px;
+    }
+    .what-hot i:before{
+        position: relative;
+        bottom: 10px;
+    }
+    .sale-girl-wrapper{
+        display: none;
+    }
+    .girls-wrapper{
+        height: 555px;
+    }
+    .girls{
+        width: 275px;
+        height: 525px;
+    }
+    .girls img{
+        height: 360px;
+    }
+    .girls p{
+        font-size: 18px;
+    }
+    .girls span{
+        font-size: 28px;
+    }
+    .girls button{
+        font-size: 20px;
+        height: 65px;
+        width: 220px;
+        border-bottom: 7px solid #dd6b44;
+    }
+    .load-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fd926d;
+        height: 120px;
+        width: 100%;
+        align-self: center;
+        cursor: pointer;
+    }
+    .load-more p{
+        background-color: black;
+        font-family: "HelveticaNeueLTStd-Lt";
+        font-size: 20px;
+        color: white;
+        height: 60px;
+        width: 220px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+

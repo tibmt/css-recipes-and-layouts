@@ -1,0 +1,58 @@
+
+body, html{
+    font-family: Arial, serif;
+    height: 100%;
+}
+@font-face {
+    font-family:'Luxury Royale Jf';
+    src:url(../fonts/LuxuryRoyaleJF.ttf);
+}
+@font-face {
+    font-family:'HelveticaNeueLTStd-HvCn';
+    src:url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-HvCn.otf);
+}
+@font-face {
+    font-family:'HelveticaNeueLTStd-LtCn';
+    src:url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-LtCn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-BlkCn';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BlkCn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-ThCn';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-ThCn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-UltLtCn';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-UltLtCn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-BdCn';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-BdCn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Cn';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-Cn.otf);
+}
+@font-face {
+    font-family: 'HelveticaNeueLTStd-Lt';
+    src: url(../fonts/HelveticaNeueLTStd/HelveticaNeueLTStd-Lt.otf);
+}
+@font-face {
+    font-family: 'BelloScript';
+    src: url(../fonts/BelloScript.otf);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+

@@ -1,0 +1,171 @@
+
+.content-bottom-header{
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-line{
+    margin-left: 10%;
+}
+.middle-item{
+    height: 180px;
+}
+.clearance-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    bottom: 140px;
+    font-size: 36px;
+    font-family: 'a_Empirial';
+    color: white;
+}
+.clearance{
+    margin-top: 10px;
+}
+.clearance-wrapper span{
+    line-height: 80%;
+}
+.clearance-fifty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifty-percent{
+    font-size: 80px;
+}
+.percent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+.right-line{
+    margin-right: 10%;
+}
+
+.content-bottom-section{
+    height: 395px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.with-discounts{
+    background-color: #f7f7f7;
+    height: 395px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+.with-discounts p{
+    margin: auto;
+    font-size: 12px;
+}
+.with-discounts > span{
+    font-size: 22px;
+}
+.with-discounts button{
+    border: 0;
+    color: white;
+    background-color: #fd926d;
+    padding: 5px;
+    border-bottom: 2px solid #dd6b44;
+    margin: 8px auto;
+}
+.with-discounts button i{
+    color: white;
+    padding-left: 8px;
+}
+
+.content-bottom-footer{
+    height: 330px;
+}
+.favoutite-brands{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.favoutite-brands span{
+    margin: 0;
+    margin-bottom: 10px;
+    width: 44%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.brands{
+    height: 94px;
+    background-image: url(../img/brandsSprites.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aboutLookShops{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.aboutLookShops div{
+    font-size: 24px;
+    color: #646464;
+    margin-bottom: 0;
+}
+.aboutLookShops p{
+
+    max-width: 975px;
+    font-size: 14px;
+    color: #b7b7b7;
+}
+.content-bottom-hidden{
+    display: none;
+}
+.hidden-content{
+    display: none;
+}
+
+@media screen and (max-device-width: 768px) and (min-device-width: 640px){
+    .foth-girl{
+        display: none;
+    }
+    .brands{
+        background-image: url(../img/brandsSpritesIPad.png);
+    }
+    .favoutite-brands span{
+        width: 65%;
+    }
+}
+@media screen and (max-device-width: 640px) {
+    .content-bottom-section{
+        display: none;
+    }
+    .content-bottom-footer{
+        display: none;
+    }
+    .content-bottom-hidden-wrapper{
+        display: flex;
+        flex-direction: column;
+        height: 615px;
+    }
+    .load-more-hidden{
+        background-color: white;
+    }
+    .hidden-content{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .hidden-content .girls{
+        background-color: #f7f7f7;
+    }
+
+}

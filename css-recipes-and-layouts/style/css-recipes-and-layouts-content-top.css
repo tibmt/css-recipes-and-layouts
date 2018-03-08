@@ -1,0 +1,308 @@
+
+.email-links-wrapper{
+    height: 55px;
+    background-color: #ededed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.email-links-wrapper :first-child{
+    margin-left: 10%;
+    margin-right: 10px;
+    color: #a5a5a5;
+    font-size: 12px;
+}
+.email-links-wrapper input{
+    font-style: italic;
+    padding: 4px 0;
+    width: 132px;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+.email-links-wrapper button{
+    height: 30px;
+    background-color: #fd926d;
+    border: 0;
+    border-bottom: 3px solid #dd6b44;
+    margin-right: auto;
+    width: 25px;
+    cursor: pointer;
+}
+.email-links-wrapper button:hover{
+    background-color: #4fafa0;
+    border-bottom: 3px solid #4fafa0;
+}
+.email-links-wrapper button :before{
+    color: white;
+}
+.email-links-wrapper :last-child{
+    margin-right: 10%;
+}
+.email-links-wrapper i{
+    cursor: pointer;
+}
+.find-us{
+    font-size: 12px;
+    color: #949494;
+    padding-right: 10px;
+}
+.pinterest{
+    padding: 15.5px;
+    background-color: #f7f7f7;
+}
+.facebook{
+    padding: 15px 20px;
+    background-color: #f7f7f7
+}
+.fa-facebook:before, .fa-pinterest:before, .fa-twitter:before{
+    font-size: 25px;
+}
+.twitter{
+    padding: 15.5px;
+}
+
+.content-top-section {
+    height: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture-wrapper-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 340px;
+    width: 970px;
+}
+.man-with-glases-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 208px;
+}
+.man-with-glases{
+    position: relative;
+    bottom: 270px;
+    left: 220px;
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.man-with-glases .best{
+    font-family: "HelveticaNeueLTStd-BlkCn";
+    font-size: 34px;
+    font-weight: bold;
+}
+.man-with-glases .outfits{
+    font-family: "HelveticaNeueLTStd-ThCn";
+    margin: 0;
+    font-size: 75px;
+    line-height: 80%;
+}
+.man-with-glases .ampersand-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.man-with-glases .ampersand-wrapper hr{
+    width: 100%;
+    border-top: 1px solid #414141;
+}
+.man-with-glases .ampersand{
+    margin: 0 5px;
+    padding: 0 10px;
+    width: 33px;
+    height: 33px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #414141;
+    color: white;
+    font-size: 22px;
+}
+.man-with-glases .looks{
+    font-family: "HelveticaNeueLTStd-BlkCn";
+    margin: 0;
+    line-height: 80%;
+    font-size: 82px;
+    color: #4fafa0;
+}
+.picture-wrapper-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    align-items: stretch;
+    height: 340px;
+    width: 485px;
+    position: relative;
+    bottom: 67px;
+
+}
+.girl-without-glases{
+    position: relative;
+    bottom: 67px;
+}
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    top: 155px;
+    left: 25px;
+    border: 5px solid #dcebec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.summer{
+    font-family: "BelloScript";
+    font-size: 22px;
+    margin: 0;
+    color: #fd926d;
+}
+.party{
+    font-family: "HelveticaNeueLTStd-UltLtCn";
+    line-height: 80%;
+    font-size: 42px;
+    color: #c1aea8;
+    margin: 0;
+}
+.collection{
+    font-family: "HelveticaNeueLTStd-BdCn";
+    font-size: 14px;
+    color: #6a6a6a;
+    margin: 0;
+}
+.picture-wrapper-three{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 170px;
+    width: 485px;
+}
+.girl-with-glases{
+    display: flex;
+    flex-direction: column;
+    margin-top: 58px;
+}
+.sellers{
+    font-family: "HelveticaNeueLTStd-UltLtCn";
+    font-size: 34px;
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.sellers i{
+    padding-left: 10px;
+}
+.man-without-glases{
+    display: flex;
+    flex-direction: column;
+    margin-top: 103px;
+}
+.shop-now-button{
+    position: relative;
+    bottom: 120px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shop-now-button p{
+    margin: 0;
+    font-family: "HelveticaNeueLTStd-Cn";
+    font-size: 36px;
+    color: white;
+    line-height: 80%;
+}
+.shop-now-button button{
+    margin-top: 10px;
+    font-family: "HelveticaNeueLTStd-Lt";
+    font-size: 12px;
+    background-color: #4fafa0;
+    border: 0;
+    padding: 10px;
+}
+.what-hot{
+    display: none;
+}
+
+
+@media screen and (max-device-width: 768px) and (min-device-width: 640px) {
+    .email-links-wrapper :first-child {
+        margin-left: 2%;
+    }
+    .email-links-wrapper :last-child{
+        margin-right: 2%;
+    }
+    .content-middle header :first-child{
+        margin-left: 2%;
+    }
+    .content-middle header :last-child{
+        margin-right: 2%;
+    }
+    .content-top-section{
+        background-image: url("../img/topContent.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 325px;
+    }
+    .picture-wrapper-one{
+        display: none;
+    }
+}
+@media screen and (max-device-width: 640px){
+    .content-top-section{
+        display: none;
+    }
+    .email-links-wrapper{
+        height: 230px;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: white;
+    }
+    .email-links-wrapper :first-child{
+        display: none;
+    }
+    .email-links-wrapper input{
+        width: 515px;
+        height: 96px;
+        font-size: 30px;
+        margin-left: 15px;
+        border: 0;
+        background-color: #ededed;
+    }
+    .email-links-wrapper button{
+        height: 96px;
+        width: 96px;
+        border-bottom: 8px solid #dd6b44;
+    }
+    .email-links-wrapper button :first-child{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+    }
+    .email-links-wrapper div{
+        font-size: 26px;
+        padding-right: 30px;
+    }
+    .email-links-wrapper i{
+        width: 88px;
+        height: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .email-links-wrapper i:before{
+        font-size: 30px;
+    }
+    .twitter{
+        background-color: #ededed;
+    }
+}
+

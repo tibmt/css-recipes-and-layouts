@@ -1,0 +1,206 @@
+
+footer{
+    height: 330px;
+}
+.payment-cards{
+    height: 58px;
+    background-color: #f7f7f7;
+    background-image: url(../img/visaSprites.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.payment-cards :first-child{
+    margin: 0;
+    color: #cacaca;
+    font-size: 12px;
+    text-align: right;
+    flex-basis: 30%;
+}
+.footer-nav-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 200px;
+    background-color: #ededed;
+    color: #b6b4b4;
+    font-size: 12px;
+    padding-top: 30px;
+}
+.footer-nav-wrapper p:hover{
+    color: #fd926d;
+}
+.footer-nav-wrapper p{
+    cursor: pointer;
+    margin: 0;
+}
+.footer-nav-text{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav-text-left{
+    display: flex;
+    justify-content: center;
+}
+.footer-nav-text-right{
+    display: flex;
+    justify-content: center;
+}
+.customer-service{
+    margin-right: 40px;
+}
+.customer-service span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #544f4d;
+}
+.information{
+    margin-right: 70px;
+}
+.information span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #544f4d;
+}
+.campaigns{
+    margin-right: 50px;
+}
+.campaigns span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #544f4d;
+}
+.stores{
+    margin-right: 50px;
+}
+.stores span{
+    font-weight: bold;
+    font-size: 16px;
+    color: #544f4d;
+}
+.soc-sec{
+    display: flex;
+}
+.social{
+    font-weight: bold;
+    font-size: 16px;
+    color: #544f4d;
+    background-image: url(../img/socialSprites.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 135px;
+    margin-right: 50px;
+}
+.secured{
+    background-image: url(../img/100%secured.png);
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secured :first-child{
+    line-height: 80%;
+    font-size: 30px;
+    font-family: "Impact";
+    margin: 0;
+}
+.secured :last-child{
+    margin: 0;
+    font-size: 14px;
+    font-family: "HelveticaNeueLTStd-LtCn";
+}
+.copyright-wrapper{
+    color: #808080;
+    font-size: 11px;
+    height: 74px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.copyright-wrapper p{
+    padding: 0 10px ;
+    border-right: 1px solid #808080;
+    cursor: pointer;
+}
+.copyright-wrapper p:hover{
+    color: red;
+}
+.area{
+    display: none;
+}
+.copyright{
+    margin-right: 10%;
+}
+.copyright :first-child, .copyright :last-child{
+    border-right: 0;
+}
+.copyright-wrapper :nth-child(5){
+    border-right: 0;
+    margin-right: auto;
+}
+.copyright-p{
+    margin-left: 10%;
+}
+
+@media screen and (max-device-width: 768px) and (min-device-width: 640px){
+    .copyright-p{
+        margin-left: 2%;
+    }
+    .copyright{
+        margin-right: 2%;
+    }
+    .footer-nav-wrapper{
+        height: 347px;
+        justify-content: space-around;
+    }
+    .footer-nav-text{
+        flex-direction: column;
+    }
+    .footer-nav-text-left{
+        height: 150px;
+    }
+    .footer-nav-text-right{
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-device-width: 640px){
+    .footer-informatin{
+        height: 108px;
+    }
+    .payment-cards{
+        display: none;
+    }
+    .footer-nav-wrapper{
+        display: none;
+    }
+    .copyright-wrapper{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+        font-size: 24px ;
+    }
+    .copyright-wrapper > p{
+        display: none;
+    }
+    .copyright-wrapper div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .area{
+        display: block;
+        color: white;
+    }
+
+}
